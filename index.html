@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Movie_App</title>
+  <!-- ?Swiper JS ---------------->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+  <!-- ?Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+
+<body>
+  <section>
+
+    <div class="slider-container">
+      <!-- ?Slider main container -->
+      <div class="swiper">
+        <!-- ?Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- ?Slides -->
+          <div class="swiper-slide">
+            <img src="img/oneImg.webp" alt="img">
+
+            <div class="desc-absolute">
+              <div class="desc-inside">
+                <h1 class="desc-title">Guardians Galaxy</h1>
+                <div class="tot-rate">
+                  <div class="tot-imdb">IMDb</div>
+                  <div class="rate-per">860/100</div>
+                  <div class="heart"><i class="fa-solid fa-heart"></i></div>
+                </div>
+                <p class="p-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia dolores, quasi
+                  repudiandae fugiat repellat exercitationem labore sapiente blanditiis saepe dolorum.</p>
+                <a href="https://www.youtube.com/watch?v=d96cjJhvlMA" class="watch"><i class="fa-solid fa-circle-play"></i>WATCH TRAILER</a>
+              </div>
+
+            </div>
+
+          </div>
+          <div class="swiper-slide">
+            <img src="img/wonder-w.jpg" alt="img">
+
+            <div class="desc-absolute">
+              <div class="desc-inside">
+                <h1 class="desc-title">Wonder Woman</h1>
+                <div class="tot-rate">
+                  <div class="tot-imdb">IMDb</div>
+                  <div class="rate-per">860/100</div>
+                  <div class="heart"><i class="fa-solid fa-heart"></i></div>
+                </div>
+                <p class="p-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia dolores, quasi
+                  repudiandae fugiat repellat exercitationem labore sapiente blanditiis saepe dolorum.</p>
+                <a href="https://www.youtube.com/watch?v=sfM7_JLk-84" class="watch"><i class="fa-solid fa-circle-play"></i>WATCH TRAILER</a>
+              </div>
+
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="img/threeImg.jpg" alt="img">
+
+            <div class="desc-absolute">
+              <div class="desc-inside">
+                <h1 class="desc-title">DeadPooll</h1>
+                <div class="tot-rate">
+                  <div class="tot-imdb">IMDb</div>
+                  <div class="rate-per">860/100</div>
+                  <div class="heart"><i class="fa-solid fa-heart"></i></div>
+                </div>
+                <p class="p-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia dolores, quasi
+                  repudiandae fugiat repellat exercitationem labore sapiente blanditiis saepe dolorum.</p>
+                <a href="https://www.youtube.com/watch?v=ONHBaC-pfsk&t=1s" class="watch"><i class="fa-solid fa-circle-play"></i>WATCH TRAILER</a>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        <!-- ?If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- ?If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+      </div>
+
+      <h2 class="h2-title">Slides of Top Films</h2>
+
+      <div class="container">
+        <!-- ?Header----------- -->
+        <header class="header">
+          <div class="head-flex">
+            <h1 class="logo-h1"><a href="#">Movie App</a></h1>
+            <div class="log-sign">
+              <form class="form-main">
+                <input class="search" type="search" placeholder="Search..." />
+                <button type="submit" class="search-btn">Search</button>
+              </form>
+
+              <button class="favourites">
+                <i class="fa-solid fa-floppy-disk">
+                  <div class="news-circle">0</div>
+                </i>
+              </button>
+              <div class="favourites-toggle-fixed">
+                <ul class="favourite-ul">
+                  <h3 class="favourite-h3">Watch List</h3>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </header>
+      </div>
+      <div class="contents">
+
+        <!-- ?Slider2 main container -->
+        <div class="swiper swiper2">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide sv2">
+              <img src="img/ten.jpg" alt="img">
+              <div class="swap-desc">
+                <span>USA 2015-2016</span>
+                <h3>Black and Blue</h3>
+                <div class="swap2-flex">
+                  <div class="swapIm">IMDb</div>
+                  <div class="swap-rate">870/100</div>
+                </div>
+                <p class="swap-janr">Action, Adventure</p>
+              </div>
+
+            </div>
+
+            <div class="swiper-slide sv2">
+              <img src="img/tvelwe.jpg" alt="img">
+              <div class="swap-desc">
+                <span>USA 2012-2014</span>
+                <h3>Stronger Man</h3>
+                <div class="swap2-flex">
+                  <div class="swapIm">IMDb</div>
+                  <div class="swap-rate">750/100</div>
+                </div>
+                <p class="swap-janr">Action, Adventure, Documentary</p>
+              </div>
+            </div>
+
+            <div class="swiper-slide sv2">
+              <img src="img/third.webp" alt="img">
+              <div class="swap-desc">
+                <span>USA 2010-2012</span>
+                <h3>Eagle Eyes</h3>
+                <div class="swap2-flex">
+                  <div class="swapIm">IMDb</div>
+                  <div class="swap-rate">920/100</div>
+                </div>
+                <p class="swap-janr">Action, Adventure, Fantasy</p>
+              </div>
+            </div>
+
+            <div class="swiper-slide sv2">
+              <img src="img/four.webp" alt="img">
+              <div class="swap-desc">
+                <span>USA 2018 - 2019</span>
+                <h3>Prince of Persia</h3>
+                <div class="swap2-flex">
+                  <div class="swapIm">IMDb</div>
+                  <div class="swap-rate">820/100</div>
+                </div>
+                <p class="swap-janr">Action, Adventure, History, Fantasy</p>
+              </div>
+            </div>
+
+            <div class="swiper-slide sv2">
+              <img src="img/five.jpg" alt="img">
+              <div class="swap-desc">
+                <span>USA 2015</span>
+                <h3>X-Man Wolverine</h3>
+                <div class="swap2-flex">
+                  <div class="swapIm">IMDb</div>
+                  <div class="swap-rate">860/100</div>
+                </div>
+                <p class="swap-janr">Action, Adventure, Fantasy</p>
+              </div>
+            </div>
+
+            <div class="swiper-slide sv2">
+              <img src="img/six.jpg" alt="img">
+              <div class="swap-desc">
+                <span>USA 2008 -2010</span>
+                <h3>The Time</h3>
+                <div class="swap2-flex">
+                  <div class="swapIm">IMDb</div>
+                  <div class="swap-rate">860/100</div>
+                </div>
+                <p class="swap-janr">Action, Adventure, Future</p>
+              </div>
+            </div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+
+
+
+
+    </div>
+
+
+    <div class="container">
+
+      <h2 class="free-film-h2">Free Films and TV</h2>
+
+      <div class="search-see-more-flex">
+        <form class="search-2">
+          <input type="search" class="search-by-name" placeholder="Name of films...">
+
+          <select name="select" id="select-films">
+            <option value="all">All</option>
+            <option value="dramma">Dramma</option>
+            <option value="adventure">Adventure</option>
+            <option value="action">Action</option>
+            <option value="comedy">Comedy</option>
+            <option value="history">History</option>
+            <option value="fantasy">Fantasy</option>
+          </select>
+
+          <input type="number" class="search-by-year" placeholder="Enter year...">
+          <button class="submit2">Search</button>
+        </form>
+        <div class="see-more">
+          <button class="see-m-btn">See More</button>
+        </div>
+      </div>
+
+
+      <div id="serch-more">
+        <ul class="content-inside-grid">
+          <!-- ?Content item comes here ----->
+        </ul>
+      </div>
+
+
+      <div class="more-f-main">
+
+      </div>
+
+      <!-- ? PAgination Buttons -------------------->
+    </div>
+    </div>
+
+    <!-- ?Rest info ---------------->
+    <div class="rest-info"></div>
+
+    <div class="rest-back" onclick="backFunc()"></div>
+  </section>
+
+  <!-- ?Swiper Js -------------------->
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <script src="normalized-movies.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
